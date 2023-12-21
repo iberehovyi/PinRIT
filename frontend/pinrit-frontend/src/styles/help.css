@@ -1,0 +1,51 @@
+.card-panel {
+    background-color: #181C41 !important;
+    width: 90vw;
+    margin-top: 10em !important;
+    margin-bottom: 5em !important;
+    color: #93c5fd !important;
+  }
+
+  .help-canvas {
+    height: fit-content !important;
+  }
+
+  .collapsible-header {
+    background-color: #171B42 !important;
+    border-color: #6F4E9C !important;
+  }
+
+  .collapsible {
+    border-color: #6F4E9C !important;
+  }
+
+  .collapsible-body {
+    border-color: #6F4E9C !important;
+
+  }
+
+  .collapsible li {
+    animation: none !important;
+  }
+
+  .size {
+    width: 400px !important;
+    margin-left: 5em !important;
+  }
+
+  .mt {
+    margin-top: 5em;
+  }
+
+  .ml {
+    margin-left: 3em !important;
+  }
+
+  .text-margin {
+    margin-bottom: 1em;
+  }
+
+  .card-panel p {
+    margin-top: 0.5em;
+  }
+

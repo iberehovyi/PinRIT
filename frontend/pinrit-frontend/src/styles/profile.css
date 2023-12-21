@@ -1,0 +1,79 @@
+
+
+.album-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#myNFTs img{
+    height: 180px;
+    width: 180px;
+    border-style: solid;
+    border-color: #495099 !important;
+    border-radius: 5%;
+    border-width: 2.5px;
+    margin-top: 0.5em !important;
+    margin-bottom: 0.5em !important;
+  }
+
+  .card {
+    /* transform-style: preserve-3d !important;
+    transition: all 0.8s ease !important; */
+    height: 300px;
+    width: 220px;
+    background-color: #161B42 !important;
+    border-style: solid;
+    border-radius: 5% !important;
+    border-width: 2px;
+    border-color: #BC69FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em !important;
+    
+  }
+
+  .card-panel {
+    background-color: #0B0D21 !important;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10em !important;
+    position: relative;
+
+  }
+
+
+   /* .front {
+    position: absolute !important;
+   }
+
+   .back {
+    position: absolute !important;
+
+    transform: rotateY('180deg') !important;
+   }
+   
+   .flipCard {
+    transform: rotateY('180deg') !important;
+   } */
+
+
+  .info-text {
+    color: #93c5fd;
+    font-size: large;
+  }
+
+  .container {
+    padding-top: 10em !important;
+  }
+
+  .container-footer {
+    margin-top: 2em !important;
+  }
+

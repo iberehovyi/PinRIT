@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0B0D21;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white !important;
+    padding: none !important;
+    margin: none !important; 
+    overflow-x: hidden !important;
+}
+
+
+.address-canvas {
+  margin-bottom: 2em !important;
+  font-size: large !important;
+  color: #93c5fd;
+}
+
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
+/* footer */
+footer {
+  background-color: #080620 !important;
+  padding-bottom: 20px;
+}
+
+.m2 {
+  margin-top: 1em !important;
+  margin-bottom: 1em;
+}
+
+.error-msg{
+  color: red;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+
+  .fa {
+    padding: 13px;
+    margin: 0.2em;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-bottom: 5em; 
+}
+
+  .fa:hover {
+    text-decoration: none;
+    color: white;
+    opacity: 0.5;
+}
+
+.fa-instagram {
+  background: #6F4E9C;
+  color: white;
+}
+
+.fa-twitter {
+  background: #6F4E9C;
+  color: white;
+}
+
+.fa-youtube {
+  background:#6F4E9C;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #6F4E9C;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+  
+
+/* style for buttons */
+.btn {
+  border-style: solid !important;
+  border-radius: 1em !important;
+  background-color: #111535 !important;
+  border-color: #495099 !important;
+  color: white !important;
+  border-width: 2.5px !important;
+}
+
+.btn:hover {
+background-color: #575FA8 !important;
+color: #fff;
+animation: 1.5s myFlash linear infinite;
+text-shadow: 2px 2px 30px #fff;
+transition: 2s;
+}
+
+
+
+.size {
+font-size: small !important;
+}
+
+.nav-text {
+  font-size: 15px !important;
+}
+
+
+.address {
+  color: gainsboro;
+  font-size: x-small;
+}
+
+/* flex styles */
+.flex-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nft_header_image {
+  width: 100%;
+  height: 100%;
+}
+
+.svg_image {
+  width: 100%;
+  height: 100%;
+}
+
+#header {
+  height: 100vh !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.header-container {
+  display: grid !important;
+  grid-template-columns: 40% 60%;
+  align-items: center !important;
+  justify-content: center !important;
+  margin-left: 10%;
+  width: 100vw !important;
+}
+
+.help {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  margin-right: 2em;
+  margin-top: 2em;
+  height: 10vh;
+
+}
+
+.text-block {
+  display: flex;
+  flex-direction: column;
+  margin: 2em;
+  font-size: 16px;
+  color: white;
+}
+
+.try-button {
+  margin-top: 1.5em;
+  width: 13em !important;
+  height: 2.5em !important;
+  font-size: 18px !important;
+}
+
+.floating {
+  position: relative;
+  animation-name: float;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes float {
+  0% { transform: translate(0, 0); }
+  50% { transform: translate(0, 20px); }
+  100% { transform: translate(0, 0); }
+}
+
+.carousel {
+  height: 100vh !important;
+}
+
+.carousel .carousel-item {
+  width: 50% !important; 
+  margin-top: -10%;
+}
+
+.carousel-item :hover {
+  filter: brightness(50%);
+}
+
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+.nav-container {
+  width: 100vw !important;
+} 
+
+
+.navigation {
+  padding: 0.5em;
+  margin: 2em;
+  position: absolute;
+  width: 30vw;
+
+
+}
+
+.mtm-height {
+  height: 3em;
+}
+
+.meta {
+  padding: 1em;
+  margin-top: 0.5em;
+}
+
+nav {
+  list-style-type: none;
+  display: flex;
+  padding: 10px 0;
+  background-size: 400% 400%;
+  background-image: linear-gradient(-45deg, #0B0D21, #7c4dff, #6F4E9C, #0B0D21);
+  animation: 12s myGradient infinite;
+  border-radius: 40px;
+  box-shadow: 3px 3px 20px #7c4dff;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+
+@keyframes myGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  
+  50%{
+    background-position: 100% 50%;
+  }
+  
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.fa-search{
+  transition: 1s;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.active {
+  transition: 1s;
+}
+
+.active1{
+  transition: 1s;
+}
+
+.active2 {
+  transition: 1s;
+}
+
+.active3 {
+  transition: 1s;
+}
+
+nav li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 45px 45px;
+  font-weight: lighter;
+  font-size: 50px; 
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+
+nav a {
+  font-size: x-large !important;
+  margin-left: 1em;
+  margin-bottom: 0.5em;
+}
+
+
+.active3:hover {
+  color: #fff;
+  animation: 1.5s myFlash linear infinite;
+  text-shadow: 2px 2px 30px #fff;
+  transition: 2s;
+  margin-top: -100px;
+}
+
+.active2:hover {
+  color: #fff;
+  animation: 1.5s myFlash linear infinite;
+  text-shadow: 2px 2px 30px #fff;
+  transition: 2s;
+}
+
+.active1:hover {
+  color: #fff;
+  animation: 1.5s myFlash linear infinite;
+  text-shadow: 2px 2px 30px #fff;
+  transition: 2s;
+}
+
+.active:hover {
+  color: #fff;
+  animation: 1.5s myFlash linear infinite;
+  text-shadow: 2px 2px 30px #fff;
+  transition: 2s;
+}
+
+@keyframes myFlash {
+  0% {
+    opacity: 1;
+    text-shadow: transparent;
+  }
+  
+  50% {
+    opacity: .1;
+  }
+  
+  100% {
+    opacity: 1;
+    text-shadow: 2px 2px 20px #fff;
+  }
+}
+
+
+
+@keyframes myBackground {
+  0% {
+    background-position: 0% 50%;
+    opacity: 0%;
+  }
+  
+  50% {
+    background-position: 100% 50%;
+  }
+  
+  100% {
+    background-position: 0% 50%;
+    opacity: 1;
+  }
+}
+
+
+@keyframes myLinear {
+  0%{
+    width: 50px;
+  }
+  
+  100% {
+    width: 250px;
+  }
+}
+
+.flash-GIF {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #ff5959;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 15%;
+  left: 10%;
+  box-shadow: 2px 2px 20px #d4267d;
+  animation: 1.6s myFlash linear infinite;
+}
+
+@keyframes myFlash{
+  0% {
+    opacity: 1;
+  }
+  
+  50%{
+    opacity: .1;
+  }
+  
+  100% {
+    opacity: 1;
+  }
+}
+
+nav {
+  transition: 5s;
+  animation: 5s myAnimation ease linear;
+}
+
+@keyframes myAnimation {
+  0% {
+    opacity: 0;
+  }
+  
+  100% {
+    opacity: 1;
+  }
+}
+
+.nav-type {
+  animation: 3s myWorld ease linear;
+
+}
+
+
+@keyframes myWorld {
+  0% {
+    opacity: 0;
+  }
+  
+  100% {
+    opacity: 1;
+  }
+}

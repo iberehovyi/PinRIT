@@ -1,0 +1,187 @@
+
+
+#upl {
+  margin-top: 2em;
+}
+
+.card-panel {
+  background-color: #0B0D21!important;
+  width: 65em;
+  height: 55em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: 0% !important;
+  border: none !important;
+  margin-bottom: 10em !important;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-el {
+  display: block;
+  width: 135px !important;
+  height: 135px !important;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #3C60FD;
+  border-width: 3px;
+  text-align:center;
+}
+
+.circle-el img{
+  margin-top: 6.7px;
+}
+
+.info-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+}
+
+.size {
+  font-size: small;
+}
+
+.buy-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.info-text {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5em;
+  font-size: smaller;
+  color: #93c5fd;
+  margin: 0.5em;
+}
+
+
+
+.cl {
+    color: white;
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.canvas-panel {
+    width: 55em;
+    height: 35em;
+    border-width: 4px;  background: linear-gradient(#171B42, #171B42) padding-box,
+    linear-gradient(to right, #20A2FF,#22DBF7, #A4FFCB) border-box;
+    border-radius: 33px;
+    border: 4px solid transparent;
+    border: 2.5px solid transparent;
+}
+
+.modal {
+  width: 28em !important;
+  height: 30em;
+  border-color: #075985;
+  background-color: #070916 !important;
+  border-style: solid;
+  border-radius: 5% !important;
+  border-width: 2.5px;
+}
+
+.bck {
+  background-color: #070916 !important;
+}
+
+input {
+  color: white;
+}
+
+textarea {
+  color: white;
+}
+
+.input-field {
+  border-style: solid;
+  border-radius: 1em;
+  background-color: #111535;
+  border-color: #04B6D4;
+  border-width: 2.5px;
+  color: white;
+}
+
+.custom-btn-width {
+  width: 10em;
+}
+
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 10px; 
+  }
+  
+  .header h2 {
+    min-width: fit-content;
+  }
+  
+  .server-message {
+    width: 100%;
+    padding: 16px;
+    border-radius: 5px;
+  }
+  
+  .input-div {
+    width: 70%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    color: white;
+
+  }
+  
+  .input-div .browse {
+    color: white;
+    font-weight: bold;
+  }
+
+  #nftData img{
+    height: 40px;
+    width: 40px;
+    border-radius: 13px;
+    margin: 0.1em;
+  }
+
+  #nftData img:hover{
+  opacity: 0.7;
+  transform: scale(1.2); 
+  transition-duration: 0.5s;
+  }
+
+  #address {
+    position:absolute; 
+    left: 75%; 
+    top: 5%;
+    display: flex;
+  }
+  
+  
+
+
+
